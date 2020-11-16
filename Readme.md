@@ -4,7 +4,7 @@
 
 ### How To
 
-1. pip install requirements.txt
+1. pip install -r requirements.txt
 
 1. Set the environment variables or change the values on the script
 
