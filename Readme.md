@@ -22,7 +22,7 @@
     1. Configuration > Action > New or edit an existing one
     1. In operations set type to remote command, check current host, choose custom script on type and execute on zabbix server.
 In commands set the following:
-        1. /path/to/python /path/to/CDRZabbixGLPI.py -a create -e {EVENT.ID} -n "{EVENT.NAME}" -o "{HOST.NAME}" -t {TRIGGER.ID}
+        1. /path/to/python /path/to/CDRZabbixGLPI.py -a create -e {EVENT.ID} -n '{EVENT.NAME}' -o "{HOST.NAME}" -t {TRIGGER.ID}
     1. In recovery operations do the same but with the following command:
         1. /path/to/python /path/to/CDRZabbixGLPI.py -a finish -e {EVENT.ID}
 
