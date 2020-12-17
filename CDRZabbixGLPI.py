@@ -5,9 +5,9 @@ from pyzabbix import ZabbixAPI
 import argparse
 from datetime import datetime
 
-GLPI_TOKEN = os.getenv('GLPI_APP_TOKEN')
+GLPI_TOKEN = os.getenv('GLPI_APP_TOKEN', 'ehrRTHERhrewthrTnjtynbrtrggt')
 GLPI_URL = os.getenv('GLPIURL', 'http://glpi.local/apirest.php')
-GLPI_AUTH_TOKEN = os.getenv('GLPI_USER_AUTH_TOKEN', "user_token GLPIUSERTOKEN")
+GLPI_AUTH_TOKEN = os.getenv('GLPI_USER_AUTH_TOKEN', "user_token fhyjefgTHRthrthbbfghbrtHRtbtb")
 GLPI_SOLUTION_ID = 1
 GLPI_ENTITIES_ID = 0
 ZabbixURL = os.getenv('ZBXURL', 'http://localhost/zabbix')
